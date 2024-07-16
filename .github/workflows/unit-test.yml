@@ -12,7 +12,7 @@ jobs:
 
     steps:
       - name: checkout code
-      - uses: actions/checkout@v3
+        uses: actions/checkout@v3
       - name: Setup Node
         uses: actions/setup-node@v3
       - run: npm ci
@@ -22,7 +22,7 @@ jobs:
 
     steps:
       - name: checkout code
-      - uses: actions/checkout@v3
+        uses: actions/checkout@v3
       - name: Setup Node
         uses: actions/setup-node@v3
       - run: npm ci
